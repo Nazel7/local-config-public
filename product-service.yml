@@ -2,3 +2,6 @@ eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
+
+health:
+  message: "::: Welcome to Product Service :::"
