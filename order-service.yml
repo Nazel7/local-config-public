@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+  eureka:
+    client:
+      register-with-eureka: true
+      fetch-registry: true
+
+    instance:
+      instance-id: ${spring.application.name}:${random.uuid}
