@@ -4,4 +4,4 @@ eureka:
     fetch-registry: true
 
 health:
-  message: "::: Welcome to Product Service :::"
+  message: "::: Welcome to Product Service! :::"
