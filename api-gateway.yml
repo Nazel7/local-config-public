@@ -1,0 +1,16 @@
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: PRODUCT-SERVICE
+          uri: lb://PRODUCT-SERVICE
+          predicates:
+            - Path: /api/products/**
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+
